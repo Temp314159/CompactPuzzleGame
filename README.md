@@ -1,15 +1,15 @@
 # CompactPuzzleGame
 ## 简介 Introduction
-一个基于Pygame的数学拼图游戏，目标是创建若干骨牌拼图并拼成可以紧密移动而不散开的结构。
+一个基于Pygame的数学拼图游戏，目标是创建若干骨牌拼图，并拼成可以紧密移动而不散开的结构。
 
-A Pygame-based math puzzle game where players create domino-like tiles and assemble them into compact structures that can move cohesively without collapsing.
+A Pygame-based math puzzle game where players create domino-like pieces and assemble them into compact structures that can move cohesively without collapsing.
 
 ## 游玩方法 How to Play
 在Releases中下载压缩包，其中有构建好的Windows可执行程序。
 
 macOS和Linux需要手动打包或在Python环境下运行.py脚本。
 
-Download the compressed package from Releases, which contains pre-built Windows executables.
+Download the zip package from Releases, which contains pre-built Windows executables.
 
 For macOS and Linux users: Either manually package the game or run the .py script directly in a Python environment.
 
@@ -21,8 +21,8 @@ For macOS and Linux users: Either manually package the game or run the .py scrip
 - 将拼图块拼成目标结构后，点击 complete 或按下 C 键，完成拼图，进入结算环节。
 - Left click/hold & drag to select grid cells.
 - Right click/hold & drag to deselect cells.
-- Click 'Create' or press Enter/Space to generate jigsaw pieces from selected cells.
-- Left click to select tiles, hold & drag to move tiles, click 'Delete' or press del to remove pieces.
+- Click 'Create' or press Enter/Space to generate a jigsaw piece from selected cells.
+- Left click to select a pieces, hold & drag to move it, click 'Delete' or press del to remove it.
 - After assembling target structure, click 'Complete' or press C to finish.
 ### 其他操作 Additional Controls
 - 点击 restart 或按下 R 键清空盘面。
@@ -39,10 +39,10 @@ For macOS and Linux users: Either manually package the game or run the .py scrip
 1. 减小 最大拼图块的格子数、总格子数;
 2. 在减小到一定的情况下，增大 拼图块数量、最大拼图块的格子数与总格子数的比例;
 3. 避免过于简单的结构（如全包围）。
-- Ensure final structure maintains cohesion during movement \(relative positions of all tiles remain unchanged).
+- Ensure final structure maintains cohesion during movement \(relative positions of all pieces remain unchanged).
 - Optimize scoring by:
-1. Minimizing largest tile size and total cells;
-2. While reduced to some low extent, maximize number of tiles and the ratio between largest tile and total cells;
+1. Minimizing largest piece size and total cells;
+2. While reduced to some low extent, maximize number of pieces and the ratio between largest piece and total cells;
 3. Avoid overly simple structures.
 
 ## 更新计划 Roadmap
