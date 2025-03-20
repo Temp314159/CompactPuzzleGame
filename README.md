@@ -1,6 +1,7 @@
 # CompactPuzzleGame
 ## 简介 Introduction
 一个基于Pygame的数学拼图游戏，目标是创建若干骨牌拼图并拼成可以紧密移动而不散开的结构。
+
 A Pygame-based math puzzle game where players create domino-like tiles and assemble them into compact structures that can move cohesively without collapsing.
 
 ## 游玩方法 How to Play
