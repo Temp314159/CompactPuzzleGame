@@ -46,13 +46,14 @@ For macOS and Linux users: Either manually package the game or run the .py scrip
 3. Avoid overly simple structures.
 
 ## 更新计划 Roadmap
-- [x] 成功时计算分数 Score calculation upon success
-- [x] 添加音效 Sound effects implementation
-- [ ] 增加成功/失败的炫酷动画 Enhanced success/failure animations
-- [ ] 支持窗口缩放与全屏模式（当前存在渲染bug） Window scaling & fullscreen support (current rendering issues)
-- [ ] 分数算法优化 Score algorithm optimization
-- [ ] 优化UI的美术表现 UI visual improvements
-- [ ] 优化音效表现 Sound effect refinements
+- [x] 成功时计算分数
+- [x] 添加音效
+- [ ] 增加成功/失败的炫酷动画
+- [ ] 支持窗口缩放与全屏模式（当前存在渲染bug）
+- [ ] 分数算法优化
+- [ ] 优化UI的美术表现
+- [ ] 优化拼图块的美术表现
+- [ ] 优化音效表现
 
 ## 碎碎念 Developer Notes
 为了智力题活动写的游戏，未来将移植到web前端。可惜目前后端程序暂时神隐了，只能说未来可期。
