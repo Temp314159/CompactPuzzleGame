@@ -49,6 +49,7 @@ For macOS and Linux users: Either manually package the game or run the .py scrip
 ## 更新计划 Roadmap
 - [x] 成功时计算分数
 - [x] 添加音效
+- [x] 取一个更好听的名字
 - [ ] 增加成功/失败的炫酷动画
 - [ ] 支持窗口缩放与全屏模式（当前存在渲染bug）
 - [ ] 分数算法优化
