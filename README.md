@@ -1,4 +1,4 @@
-# CompactPuzzleGame
+# 拼锁 Poly-Lock
 ![IMAGE](pictures/rules_cover.png)
 ## 简介 Introduction
 一个基于Pygame的数学拼图游戏，目标是创建若干骨牌拼图，并拼成可以紧密移动而不散开的结构。
